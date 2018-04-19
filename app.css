@@ -1,0 +1,63 @@
+html,body{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Asap', sans-serif;    
+    background: #1b1725;
+    background: rgb(47,44,56);
+    background: linear-gradient(45deg, rgba(47,44,56,0.8407738095238095) 0%, rgba(27,23,37,1) 100%);    
+    color: #D0BCD5;
+    font-size: 16px;
+}
+a{
+    color: #FF5733;
+    text-decoration: none;
+    border-bottom-style : solid;
+    border-bottom-width : 1px;
+}
+p{
+    margin: 0;
+}
+#main{
+    margin: 10% auto;
+    max-width: 750px;
+}
+#whoami{
+    line-height: 1.3;
+    font-size: 1.2rem;
+    padding: 10px;
+}
+#whoami p{
+    padding-top: 5px;
+}
+#whoami .avatar{
+    text-align: center;
+    margin-bottom: 15px;
+}
+#whoami .avatar img{
+    height: 110px;
+    margin-right: 15px;
+    border-radius: 50%
+}
+
+#social{
+    margin-top: 20px;
+    text-align: center;
+    
+}
+
+#social a{
+    margin-right: 5px;
+}
+
+
+@media (min-width: 750px){
+    #whoami {
+        display: flex;
+    }
+    #whoami .avatar{
+        margin: 0 0;
+    }
+}
